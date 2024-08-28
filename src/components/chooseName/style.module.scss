@@ -1,0 +1,38 @@
+@import "src/styles/palette/palette";
+@import "src/styles/mixins/mixins";
+
+.chooseYourName {
+  @media(max-width: 900px) {
+    padding: 0 15px;
+  }
+}
+
+.title {
+  @include title1;
+
+  text-transform: uppercase;
+
+  span {
+    color: $blue;
+  }
+}
+
+.selectWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.select {
+  width: 100%;
+  display: flex;
+  padding: 29px 10px;
+  gap: 8px;
+  box-shadow: 0 2.09px 11.06px 0 #00000040;
+  border-radius: 16px;
+}
+
+.selectButton {
+  width: 100% !important;
+}

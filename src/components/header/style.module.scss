@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 16px;
+  box-shadow: 0 4px 16px 0 #00000024;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1280px;
+  background: #fff;
+  z-index: 2;
+
+  img {
+    cursor: pointer;
+  }
+}
